@@ -1,0 +1,33 @@
+{"discussions": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello! Welcome to XYZ Car Rental", "Hi, greeting from XYZ Car rental", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": [ "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Thank you for contacting XYZ Car Rental", "Thank you, see you later ", "Thank you & Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "Car",
+         "patterns": ["what cars do you have", "Kia","BMW","audi","porsche", "do you have any trucks", "mercedes","hyundai"],
+         "responses": ["we only have tesla electric cars", " we have green electric cars with no carbon footprint"],
+         "context_set": ""
+        },
+        {"tag": "contact",
+         "patterns": ["who can i talk to", "who do i call?", "can i talk to a human?"],
+         "responses": ["You can call our office on 123-456-7890", "please call us during office hours at 123-456-7890"],
+         "context_set": ""
+        },
+        {"tag": "rent",
+         "patterns": ["Id like to rent something", "how much to rent for a day", "what do you reccommend?", "can i get a car"],
+         "responses": ["We have the tesla model 3 for 50$/day", "would you like to rent a tesla for 50$/day?"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your working hours", "hours of operation"],
+         "responses": ["We are open 8am-5pm Monday-Friday!"],
+         "context_set": ""
+        }
+   ]
+}
